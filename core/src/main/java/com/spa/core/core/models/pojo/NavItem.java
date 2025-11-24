@@ -10,7 +10,7 @@ public class NavItem {
     }
 
     public String getTitle(){
-        return title;
+        return title; //j
     }
 
     public String getLink(){
