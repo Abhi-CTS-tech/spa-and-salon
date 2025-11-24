@@ -8,11 +8,11 @@ import javax.inject.Inject;
 import java.util.List;
 
 @Model(adaptables = Resource.class, defaultInjectionStrategy=DefaultInjectionStrategy.OPTIONAL)
-public class Headernavmodel {
+public class HeaderNavModel {
     @Inject
     private List<MultifieldLinks> fieldname;
 
     public List<MultifieldLinks> getFieldname() {
         return fieldname;
-    }
+    } //debug comment
 }
