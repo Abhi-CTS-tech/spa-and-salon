@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-11-23T22:22:56.857+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/spa-and-salon/settings/wcm/templates/spa-and-salon-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home Page"
+        sling:resourceType="spa-and-salon/components/page"
+        brandSlug_override="true">
+        <root
+            jcr:lastModified="{Date}2025-11-23T10:13:05.582+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="spa-and-salon/components/container"
+            layout="responsiveGrid">
+            <container
+                cq:styleIds="[1763914901950]"
+                jcr:lastModified="{Date}2025-11-23T21:32:41.877+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                layout="responsiveGrid">
+                <text
+                    jcr:created="{Date}2025-11-23T21:17:12.098+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-11-23T22:13:37.791+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/text"
+                    id="dealtext"
+                    text="&lt;p>&lt;i>Deal of the day&lt;/i>&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </text>
+                <dealofthedaycomponen
+                    jcr:created="{Date}2025-11-23T21:31:24.399+05:30"
+                    jcr:createdBy="admin"
+                    jcr:description="25% off on diamond facial"
+                    jcr:lastModified="{Date}2025-11-23T21:41:23.428+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="makup image"
+                    sling:resourceType="spa-and-salon/components/customComponents/dealofthedaycomponent"
+                    alt="makup image"
+                    fileReference="/content/dam/spa-and-salon/content/top-view-arrangement-with-beauty-bag-copy-space.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </dealofthedaycomponen>
+                <dealofthedaycomponen_28530514
+                    jcr:created="{Date}2025-11-23T21:34:08.027+05:30"
+                    jcr:createdBy="admin"
+                    jcr:description="20% off on platinum massage"
+                    jcr:lastModified="{Date}2025-11-23T21:44:22.752+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/customComponents/dealofthedaycomponent"
+                    fileReference="/content/dam/spa-and-salon/content/top-view-arrangement-with-beauty-bag-copy-space.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </dealofthedaycomponen_28530514>
+                <dealofthedaycomponen_1205983050
+                    jcr:created="{Date}2025-11-23T21:34:42.076+05:30"
+                    jcr:createdBy="admin"
+                    jcr:description="15% off on manicures"
+                    jcr:lastModified="{Date}2025-11-23T21:45:24.411+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/customComponents/dealofthedaycomponent"
+                    fileReference="/content/dam/spa-and-salon/content/top-view-arrangement-with-beauty-bag-copy-space.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </dealofthedaycomponen_1205983050>
+            </container>
+            <container_1811644095
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container">
+                <herocomponent
+                    jcr:created="{Date}2025-11-23T15:15:18.048+05:30"
+                    jcr:createdBy="admin"
+                    jcr:description="This is a photo for salon"
+                    jcr:lastModified="{Date}2025-11-23T17:11:59.354+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Hero Image"
+                    sling:resourceType="spa-and-salon/components/customComponents/herocomponent"
+                    alt="Hero image"
+                    fileReference="/content/dam/spa-and-salon/content/seductive-woman-touching-face-with-makeup-brush_hero_image1.jpg"
+                    height="100"
+                    width="100"/>
+            </container_1811644095>
+            <container_1316763244
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container">
+                <aboutushomecomponent
+                    jcr:created="{Date}2025-11-23T20:05:06.824+05:30"
+                    jcr:createdBy="admin"
+                    jcr:description="Welcome to [Your Salon &amp; Spa Name], your ultimate destination for beauty, relaxation, and rejuvenation. We believe self-care is not a luxury—it’s a necessity. Our team of skilled professionals is dedicated to providing personalized treatments that leave you looking and feeling your best.&#xd;&#xa;From soothing spa therapies to stylish hair and beauty services, we combine premium products with expert techniques in a serene, luxurious environment. Whether you’re here for a quick refresh or a full day of pampering, we promise an experience that nurtures your body, mind, and soul.&#xd;&#xa;Your beauty. Your wellness. Your escape."
+                    jcr:lastModified="{Date}2025-11-23T20:08:50.496+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="About Us "
+                    sling:resourceType="spa-and-salon/components/customComponents/aboutushomecomponent"
+                    fileReference="/content/dam/spa-and-salon/content/top-view-arrangement-with-beauty-bag-copy-space.jpg"/>
+            </container_1316763244>
+        </root>
+    </jcr:content>
+</jcr:root>

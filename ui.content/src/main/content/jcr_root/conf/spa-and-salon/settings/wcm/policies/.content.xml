@@ -365,10 +365,13 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2025-11-23T21:52:37.652+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:Spa and Salon - Content,/apps/spa-and-salon/components/form/container]">
+                    components="[group:Spa and Salon - Content,/apps/spa-and-salon/components/form/container]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -392,6 +395,18 @@
                                 resourceType="spa-and-salon/components/contentfragment"/>
                         </assetToComponentMapping>
                     </cq:authoring>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="dealcomponent"
+                                    cq:styleElement="div"
+                                    cq:styleId="1763914901950"
+                                    cq:styleLabel="dealcomponent"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy_1574695586800>
                 <policy_649128221558427
                     cq:styleDefaultElement="main"
@@ -403,7 +418,7 @@
                 </policy_649128221558427>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-11-21T16:12:54.203+05:30"
+                    jcr:lastModified="{Date}2025-11-21T19:43:10.711+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="XF Root"
@@ -439,10 +454,10 @@
                             jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
-                                    cq:styleClasses="footer"
-                                    cq:styleElement="footer"
-                                    cq:styleId="1763720971791"
-                                    cq:styleLabel="footername"
+                                    cq:styleClasses="header"
+                                    cq:styleElement="div"
+                                    cq:styleId="1763734373811"
+                                    cq:styleLabel="overall"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
@@ -532,6 +547,26 @@
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1651569148540400>
+                <policy_1824521617470500
+                    jcr:lastModified="{Date}2025-11-23T14:44:31.912+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Hero policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:General,group:Spa and Salon - Content]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1824521617470500>
+                <policy_1833493468397500
+                    jcr:lastModified="{Date}2025-11-23T17:13:57.744+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="aboutus-home"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:General,group:Spa and Salon - Content]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1833493468397500>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
@@ -560,10 +595,13 @@
             <page jcr:primaryType="nt:unstructured">
                 <policy
                     jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2025-11-23T21:51:05.276+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[spa-and-salon.dependencies,spa-and-salon.site]"
+                    clientlibs="[spa-and-salon.dependencies,spa-and-salon.site,spa-and-salon.homepage]"
+                    clientlibsAsync="false"
                     clientlibsJsHead="spa-and-salon.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
@@ -589,6 +627,15 @@
                         </item0>
                     </cq:styleGroups>
                 </policy_1763719203093>
+                <policy_1669550507079400
+                    jcr:lastModified="{Date}2025-11-22T19:03:06.478+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="header policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[spa-and-salon.header,spa-and-soap.logo]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1669550507079400>
             </xfpage>
         </components>
     </spa-and-salon>

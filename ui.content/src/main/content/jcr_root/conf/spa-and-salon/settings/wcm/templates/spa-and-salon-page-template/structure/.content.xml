@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2025-11-23T13:28:29.331+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/spa-and-salon/settings/wcm/templates/spa-and-salon-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="spa-and-salon/components/page">
+        <root
+            jcr:lastModified="{Date}2025-11-23T10:13:05.582+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="spa-and-salon/components/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                jcr:created="{Date}2025-11-23T10:17:18.902+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-23T10:18:39.696+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/spa-and-salon/us/en/site/experience-fragment-header-1-0/master"/>
+            <container_1811644095
+                jcr:created="{Date}2025-11-23T10:35:32.758+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-23T10:35:32.758+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                editable="{Boolean}true"/>
+            <container_1316763244
+                jcr:created="{Date}2025-11-23T13:28:29.322+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-23T13:28:29.322+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                editable="{Boolean}true"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                editable="{Boolean}true"/>
+            <experiencefragment_275351715
+                jcr:created="{Date}2025-11-23T10:18:06.323+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-23T10:20:07.735+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/spa-and-salon/us/en/site/experience-fragment-footer-1-0-/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

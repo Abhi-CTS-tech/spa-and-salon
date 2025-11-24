@@ -2,21 +2,25 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-11-22T19:03:06.481+05:30"
+        cq:lastModified="{Date}2025-11-23T21:52:37.675+05:30"
         cq:lastModifiedBy="admin"
-        cq:policy="spa-and-salon/components/xfpage/policy_1669550507079400"
+        cq:policy="spa-and-salon/components/page/policy"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="spa-and-salon/components/container/policy_1575040440977"
+            cq:policy="spa-and-salon/components/container/policy_1574694950110"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="spa-and-salon/components/container/policy_1642648003220500"
+                cq:policy="spa-and-salon/components/container/policy_1574695586800"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
-            <container_2103783638
-                cq:policy="spa-and-salon/components/container/policy_1642648033020000"
+            <container_1811644095
+                cq:policy="spa-and-salon/components/container/policy_1824521617470500"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <container_1316763244
+                cq:policy="spa-and-salon/components/container/policy_1833493468397500"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>

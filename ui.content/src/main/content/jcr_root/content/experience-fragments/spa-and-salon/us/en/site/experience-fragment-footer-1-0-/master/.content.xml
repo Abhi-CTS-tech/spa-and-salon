@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-11-21T18:08:02.023+05:30"
+        cq:lastModified="{Date}2025-11-23T10:30:59.817+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
         cq:template="/conf/spa-and-salon/settings/wcm/templates/spa-and-salon-footer-template"
@@ -91,11 +91,11 @@
             </container_6749>
             <text
                 cq:styleIds="[1763724334396]"
-                jcr:lastModified="{Date}2025-11-21T17:00:35.182+05:30"
+                jcr:lastModified="{Date}2025-11-23T10:30:59.817+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="spa-and-salon/components/text"
-                text="&lt;p>&lt;a href=&quot;https://www.w3schools.com/about/about_copyright.asp&quot;>Copyright 1999-2025&lt;/a>&amp;nbsp;by Refsnes Data. All Rights Reserved.&amp;nbsp;&lt;a href=&quot;https://www.w3schools.com/w3css/default.asp&quot;>W3Schools is Powered by W3.CSS&lt;/a>.&lt;/p>&#xa;"
+                text="&lt;p>Copyright 1999-2025 by Refsnes Data. All Rights Reserved W3Schools is Powered by W3.CSS.&lt;/p>&#xd;&#xa;"
                 textIsRich="true"/>
         </root>
     </jcr:content>
