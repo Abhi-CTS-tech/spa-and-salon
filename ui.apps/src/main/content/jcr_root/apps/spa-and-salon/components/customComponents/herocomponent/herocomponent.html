@@ -1,0 +1,10 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+data-sly-call="${clientLib.css @categories='spa-and-salon.hero'}"
+/>
+
+<div class="heroImage" style="background-image:url(${properties.fileReference @context='styleString'});background-size:cover;background-position:center">
+	<div class="hero-wrapper">
+		<h2>Hero Image</h2>
+	</div>
+
+</div>

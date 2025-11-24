@@ -1,0 +1,14 @@
+.dealcomponent{
+
+	display:flex;
+    justify-content:center;
+}
+
+.dealcomponent #dealtext{
+	display:flex;
+    justify-content:center;
+    font-family: "Georgia", serif;
+
+
+}
+

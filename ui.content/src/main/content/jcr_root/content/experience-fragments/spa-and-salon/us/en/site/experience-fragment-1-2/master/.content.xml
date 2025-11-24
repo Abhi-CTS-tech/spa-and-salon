@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-11-21T12:19:37.158+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/spa-and-salon/settings/wcm/templates/spa-and-salon-header-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Experience Fragment 1.2"
+        sling:resourceType="spa-and-salon/components/xfpage">
+        <root jcr:primaryType="nt:unstructured">
+            <container_2103783638
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container">
+                <navigation
+                    jcr:created="{Date}2025-11-21T12:18:45.753+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-11-21T12:19:37.152+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/navigation"
+                    collectAllPages="true"
+                    disableShadowing="false"
+                    navigationRoot="/content/spa-and-salon/us/en"
+                    structureStart="1"/>
+            </container_2103783638>
+        </root>
+    </jcr:content>
+</jcr:root>

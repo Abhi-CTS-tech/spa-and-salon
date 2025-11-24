@@ -1,0 +1,14 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+data-sly-call="${clientLib.css @categories='spa-and-salon.aboutushome'}"
+/>
+
+<div class="aboutUsHome">
+	<div class="description">
+		<h2 class="aboutusText">About Us</h2>
+		<p class="aboutDescription">${properties.jcr:description}</p>
+	</div>
+	<div class="aboutusimage">
+			<img src="${properties.fileReference}"/>
+	</div>
+
+</div>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-11-21T18:08:02.023+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/spa-and-salon/settings/wcm/templates/spa-and-salon-footer-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Experience Fragment Footer 1.0 "
+        sling:resourceType="spa-and-salon/components/xfpage">
+        <root
+            granite:class="footer"
+            jcr:lastModified="{Date}2025-11-21T14:18:11.517+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="spa-and-salon/components/container"
+            layout="responsiveGrid">
+            <container
+                cq:styleIds="[1763721057277]"
+                jcr:created="{Date}2025-11-21T14:38:08.904+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-21T18:06:04.713+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                layout="responsiveGrid">
+                <image
+                    jcr:created="{Date}2025-11-21T17:13:26.962+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-11-21T17:13:27.615+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="spa and salon "
+                    sling:resourceType="foundation/components/image"
+                    alt="spa and salon logo"
+                    fileName="Designer.png"
+                    height="120"
+                    width="200">
+                    <file/>
+                </image>
+                <text
+                    jcr:created="{Date}2025-11-21T17:13:26.266+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-11-21T17:18:25.195+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/text"
+                    text="&lt;p>&lt;b>Deal of the month&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>25% of all facial&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+            <container_1607507470
+                jcr:created="{Date}2025-11-21T14:38:17.369+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-21T18:05:57.264+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                layout="responsiveGrid">
+                <footerlinklist
+                    jcr:created="{Date}2025-11-21T17:49:21.880+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-11-21T17:50:43.668+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/customComponents/footerlinklist"
+                    link1="About us"
+                    link2="Services"
+                    websitename="Spa and Salon"/>
+            </container_1607507470>
+            <container_6749
+                jcr:created="{Date}2025-11-21T14:38:24.572+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-11-21T18:05:39.712+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/container"
+                layout="responsiveGrid">
+                <footerlinklist
+                    jcr:created="{Date}2025-11-21T18:05:04.105+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-11-21T18:08:02.017+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-and-salon/components/customComponents/footerlinklist"
+                    link1="Instagram"
+                    link2="Youtube"
+                    websitename="Follow Spa and Salon"/>
+            </container_6749>
+            <text
+                cq:styleIds="[1763724334396]"
+                jcr:lastModified="{Date}2025-11-21T17:00:35.182+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="spa-and-salon/components/text"
+                text="&lt;p>&lt;a href=&quot;https://www.w3schools.com/about/about_copyright.asp&quot;>Copyright 1999-2025&lt;/a>&amp;nbsp;by Refsnes Data. All Rights Reserved.&amp;nbsp;&lt;a href=&quot;https://www.w3schools.com/w3css/default.asp&quot;>W3Schools is Powered by W3.CSS&lt;/a>.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

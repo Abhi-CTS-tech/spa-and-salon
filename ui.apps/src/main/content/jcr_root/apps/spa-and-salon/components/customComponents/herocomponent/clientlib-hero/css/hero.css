@@ -1,0 +1,15 @@
+.heroImage{
+	width:100%;
+    height:300px;
+	display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding-left:20px;
+
+}
+.hero-wrapper{
+    font-family: 'Brush Script MT', cursive;
+	font-style:italic;
+    font-size:30px;
+
+}

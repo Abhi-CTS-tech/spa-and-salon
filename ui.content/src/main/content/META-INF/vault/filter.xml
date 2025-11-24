@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/spa-and-salon" mode="merge"/>
+    <filter root="/content/spa-and-salon" mode="merge"/>
+    <filter root="/content/dam/spa-and-salon" mode="merge">
+        <exclude pattern="/content/dam/spa-and-salon(/.*)?"/>
+        <include pattern="/content/dam/spa-and-salon/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/spa-and-salon/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/spa-and-salon" mode="merge"/>
+</workspaceFilter>

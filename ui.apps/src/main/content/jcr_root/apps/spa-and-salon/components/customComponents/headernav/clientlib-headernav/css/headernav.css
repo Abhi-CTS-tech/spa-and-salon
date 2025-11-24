@@ -1,0 +1,38 @@
+.topnav{
+	background-color:#d9b99b;
+    height:100px;
+
+}
+
+.navigationList{
+		list-style-type:none;
+    	display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    	height:100px;
+}
+
+.navigationList_item{
+		width:125px;
+
+
+}
+.navigationList .navigationList_item{
+font-size:30px;
+}
+
+
+
+.navigationList_trigger{
+	color:black;
+    text-decoration:none;
+}
+
+.navigationList_trigger:hover{
+	color:#535151;
+}
+
+.navigationList_item:hover{
+	background-color:#826C64;
+}

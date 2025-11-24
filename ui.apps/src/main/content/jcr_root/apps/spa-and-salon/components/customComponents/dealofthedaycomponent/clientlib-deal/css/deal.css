@@ -1,0 +1,28 @@
+.dealcontainer{
+	height:300px;
+    width:200px;
+    border:1px solid black;
+    border-radius:10px;
+	margin-left:150px;
+	margin-right:100px;
+
+
+}
+
+.dealcontainer:hover{
+
+	transform: scale(1.1);
+}
+
+
+.dealimg img{
+	max-height:200px;
+    max-width:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+    .dealdescription{
+		font-size:15px;
+    	font-family: serif;
+}

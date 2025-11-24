@@ -1,0 +1,9 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+	 data-sly-call="${clientLib.css @categories='spa-and-salon.logo'}"
+/>
+<sly data-sly-use.model="${'com.spa.core.core.models.LogoComponentModel'}" />
+
+<div class="logocontainer">
+
+	<img src="${model.logopath}"/>
+</div>

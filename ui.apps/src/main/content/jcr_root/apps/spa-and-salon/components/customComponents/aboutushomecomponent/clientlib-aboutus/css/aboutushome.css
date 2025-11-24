@@ -1,0 +1,33 @@
+.aboutUsHome{
+
+	height:200px;
+    background-color:#A3C1AD;
+    display:flex;
+	flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+
+}
+
+.description{
+	color:#002147;
+
+}
+
+.aboutusText{
+	font-size:25px;
+    font-family: "Georgia", serif;
+}
+
+.aboutDescription{
+	font-size:15px;
+    font-family: serif;
+}
+
+.aboutusimage img{
+	max-height:150px;
+    max-width:150px;
+    object-fit:cover;
+}
+
+

@@ -1,0 +1,25 @@
+
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+	data-sly-call="${clientLib.css @categories='spa-and-salon.headernav'}"
+/>
+
+
+
+
+<sly data-sly-use.model="${'com.spa.core.core.models.HeaderNavModel'}"/>
+<nav class="topnav">
+
+
+<ul class="navigationList" data-sly-list.item="${model.navigationItems}">
+
+<li class="navigationList_item"><a href="${item.link}" class="navigationList_trigger">${item.title}</a></li>
+
+
+
+</ul>
+
+
+
+
+</nav>
+
