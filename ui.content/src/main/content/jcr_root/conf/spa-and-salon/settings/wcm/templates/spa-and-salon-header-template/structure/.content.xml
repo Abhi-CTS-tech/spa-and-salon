@@ -3,13 +3,14 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2025-11-21T12:12:46.675+05:30"
+        cq:lastModified="{Date}2025-11-23T01:00:58.556+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/spa-and-salon/settings/wcm/templates/spa-and-salon-header-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="spa-and-salon/components/xfpage">
         <root
-            jcr:lastModified="{Date}2025-11-21T12:11:29.094+05:30"
+            cq:styleIds="[1763734373811]"
+            jcr:lastModified="{Date}2025-11-21T19:26:43.546+05:30"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="spa-and-salon/components/container"
@@ -26,7 +27,7 @@
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="0"
-                        width="3"/>
+                        width="2"/>
                 </cq:responsive>
             </container>
             <container_2103783638
